@@ -85,6 +85,31 @@ Alternatively, you can specify a single test file to run at a time:
 ```
 $ python3 unittest -m tests/test_console.py
 ```
+## Purpose of Project
 
+The purpose of this project is to understand how to:
 
-# Testing ssh
+- create a Python package
+- create a command interpreter using the `cmd module`
+- serialize and deserialize a Class
+- write and read a `JSON` file
+- manage datetime
+- use `*args` and `**kwargs`
+- handle named arguments in a function
+
+## Requirements
+
+### PYTHON SCRIPT REQUIREMENTS
+
+- allowed editors: `vi`, `vim`, `emacs`
+- the first line of all files should be exactly `#!/usr/bin/python3`
+- all code should use the `PEP8` style (version 1.7.*)
+- all files must be executable
+- all files will be interpreted/compiled on `Ubuntu 14.04 LTS` using python3 (version 3.4.3)
+
+### PYTHON TEST CASE REQUIREMENTS
+- all test files should be in the folder tests
+- all test files should be text files (extension: .txt)
+- all test files should be executed using the command `python3 -m doctest ./tests/*`
+- all modules should have documentation `python3 -c 'print(__import__("my_module").__doc__)'`
+- all functions (inside and outside of classes) should have documentation python3 -c 'print(__import__("my_module").my_funct\ ion.__doc__)'
